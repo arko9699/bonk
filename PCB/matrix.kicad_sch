@@ -908,6 +908,12 @@
 		(uuid "5622d790-2e9e-404b-8285-fa71b7330a4f")
 	)
 	(junction
+		(at 116.84 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5740d30e-ded8-44c2-b8d6-239d8a03eae7")
+	)
+	(junction
 		(at 60.96 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1046,6 +1052,12 @@
 		(uuid "a323b1d5-f965-4434-b81a-b6b820692691")
 	)
 	(junction
+		(at 78.74 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4e96a15-fb37-4851-b7c9-a06431c80757")
+	)
+	(junction
 		(at 40.64 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1100,6 +1112,12 @@
 		(uuid "bdb06d01-3370-4caa-a540-39ccfe3a18be")
 	)
 	(junction
+		(at 111.76 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be2b9b53-780d-4c2d-a1cb-84a698a52a88")
+	)
+	(junction
 		(at 78.74 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1116,6 +1134,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8642074-7414-4e8f-aae3-94aae957c2c3")
+	)
+	(junction
+		(at 73.66 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d30e88b5-1428-49c4-ab99-295c64a8ec4c")
 	)
 	(junction
 		(at 60.96 66.04)
@@ -1517,6 +1541,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 90.17) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8d8a6a-b79a-4909-8a14-42250ca9f8e6")
+	)
+	(wire
+		(pts
 			(xy 111.76 27.94) (xy 111.76 46.99)
 		)
 		(stroke
@@ -1524,6 +1558,16 @@
 			(type default)
 		)
 		(uuid "4c79a90d-ff70-43aa-922d-fa487b0b5506")
+	)
+	(wire
+		(pts
+			(xy 73.66 85.09) (xy 77.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e562309-ee6f-4b50-bfa8-05d46ac680a3")
 	)
 	(wire
 		(pts
@@ -1957,6 +2001,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 90.17) (xy 82.55 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64efc4a-8051-489a-b81f-10134688bbf1")
+	)
+	(wire
+		(pts
 			(xy 99.06 46.99) (xy 99.06 66.04)
 		)
 		(stroke
@@ -2124,6 +2178,16 @@
 			(type default)
 		)
 		(uuid "e681879c-ff92-4672-969a-6bbcbf36bfb4")
+	)
+	(wire
+		(pts
+			(xy 111.76 85.09) (xy 115.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f995bb-6b44-48e1-901e-06bfbbdaa0b0")
 	)
 	(wire
 		(pts
@@ -3680,6 +3744,74 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
+		(at 118.11 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "228c7a20-22e4-4f25-9bdd-980607eae75e")
+		(property "Reference" "MX53"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb97face-a5a0-4a23-9def-7ba62ac1c2c5")
+		)
+		(pin "1"
+			(uuid "b3a42fe3-94c7-4029-acc0-dff137be6598")
+		)
+		(instances
+			(project "kalam"
+				(path "/3657237e-c8f2-4ecf-b631-303d8d00a2b6/86c11717-6fb1-49fa-ba22-57d9c11d0559"
+					(reference "MX53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 91.44 36.83 90)
 		(unit 1)
@@ -5160,6 +5292,70 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 199.39 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44429fcd-acc9-4663-8fe6-c17d3cc5742c")
+		(property "Reference" "S8"
+			(at 205.74 101.4729 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.75"
+			(at 205.74 104.0129 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.75u"
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kalam"
+				(path "/3657237e-c8f2-4ecf-b631-303d8d00a2b6/86c11717-6fb1-49fa-ba22-57d9c11d0559"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS")
 		(at 139.7 30.48 180)
 		(unit 1)
@@ -6025,6 +6221,70 @@
 			(project ""
 				(path "/3657237e-c8f2-4ecf-b631-303d8d00a2b6/86c11717-6fb1-49fa-ba22-57d9c11d0559"
 					(reference "MX40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 199.39 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b981389-4815-4a50-a192-224bae3130af")
+		(property "Reference" "S7"
+			(at 205.74 95.1229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.25"
+			(at 205.74 97.6629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.25u"
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kalam"
+				(path "/3657237e-c8f2-4ecf-b631-303d8d00a2b6/86c11717-6fb1-49fa-ba22-57d9c11d0559"
+					(reference "S7")
 					(unit 1)
 				)
 			)
@@ -7921,6 +8181,74 @@
 			(project "arkre"
 				(path "/3657237e-c8f2-4ecf-b631-303d8d00a2b6/86c11717-6fb1-49fa-ba22-57d9c11d0559"
 					(reference "MX9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
+		(at 80.01 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b62ae63b-2f3b-4543-9054-91cf23901159")
+		(property "Reference" "MX52"
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 80.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 80.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 80.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf17228d-d716-4320-9556-8e665188f400")
+		)
+		(pin "1"
+			(uuid "66c882bd-7343-4027-a588-d59be5034684")
+		)
+		(instances
+			(project "kalam"
+				(path "/3657237e-c8f2-4ecf-b631-303d8d00a2b6/86c11717-6fb1-49fa-ba22-57d9c11d0559"
+					(reference "MX52")
 					(unit 1)
 				)
 			)
