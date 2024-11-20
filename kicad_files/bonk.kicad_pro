@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "solder_mask_bridge|107334762|78204162|7376c7c8-55d1-43ee-8486-860f26cac2e5|6d28ec00-bc70-4fd4-9dce-bb925bd655b5",
+        "solder_mask_bridge|193059690|78204162|4074bebf-1988-4181-aa40-c25847f1fc1d|86084c41-9bac-4fec-b8bc-e454f361f20f",
+        "solder_mask_bridge|214490922|78204162|5c06f4ef-032a-4dca-ae06-e0054f5ebe70|86ec50d7-ce73-4d77-af06-7758d6450bf3",
+        "solder_mask_bridge|25181706|40104194|4cbdcb12-f725-4048-8039-26305f5083a4|708b64f8-c7b5-402a-bf63-ab6ff5f5601c",
+        "solder_mask_bridge|54947306|78204162|7b87053c-9910-4613-bbee-1a048c37c405|ba5f40b6-6c5e-4e80-ae8f-e814a46aae15",
+        "solder_mask_bridge|76378538|78204162|5ea727d2-1f4a-4877-bfe0-2aeb087ddd6a|1996be2c-85e8-472d-9654-b3c82537a847"
+      ],
       "meta": {
         "version": 2
       },
@@ -76,7 +83,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "ignore",
         "hole_near_hole": "ignore",
         "holes_co_located": "warning",
@@ -86,7 +93,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
