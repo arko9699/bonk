@@ -7,3 +7,6 @@ A 13u row-staggered keyboard using MX switches and STM32F072 microcontroller run
 
 * Support for uDB or use the USB-C connector on the board [WARNING: Do not use both at the same time]
 * Cutouts for Gummy O-ring mounts
+NOTE : For cost saving, you may decide to forego the JST connector OR the USB-C and related components from the BOM.
+
+**All files are provided as is and are under no warranty.**
