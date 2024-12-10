@@ -4,7 +4,7 @@
 
 *A short description of the keyboard/project*
 
-* Keyboard Maintainer: [Arkaprobho Das](https://github.com/arko9699)
+* Keyboard Maintainer: [arko9699](https://github.com/arko9699)
 * Hardware Supported: stm32f072
 * Hardware Availability: [Github](https://github.com/arko9699/bonk/)
 
