@@ -3,7 +3,9 @@ A 13u row-staggered keyboard using MX switches and STM32F072 microcontroller run
  
 # PCB
 ![PCB_BACK](https://github.com/arko9699/bonk/blob/main/pcb_back.png)
-[Supported Layouts](https://www.keyboard-layout-editor.com/#/gists/8eda360762dda6b66eb3a1510525a45f)
+
+# Supported Layouts
+![Supported Layouts](https://github.com/arko9699/bonk/blob/main/layouts.png)
 
 * Support for uDB or use the USB-C connector on the board [WARNING: Do not use both at the same time]
 * Cutouts for Gummy O-ring mounts
