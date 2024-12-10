@@ -13,7 +13,7 @@ NOTE : For cost saving, you may decide to forego the JST connector OR the USB-C 
 If you want to get a few of these PCBs to build yourself to share with friends head over to "Releases" and download the latest gerber files. Order from any PCB manufacturer of your choice however the included BOM and CPL is tailored to JLCPCB. A hot plate or hot air station is recommended to solder components yourself. 
 
 # Opening the project
-* >KiCAD 8.0.7 is required to open the project properly. Older versions of KiCAD will not work.
+* Atleast KiCAD 8.0.7 is required to open the project properly. Older versions of KiCAD will not work.
 * [marbastlib](https://github.com/ebastler/marbastlib) was used for some of the footprints.
 
 # Bill of Materials
