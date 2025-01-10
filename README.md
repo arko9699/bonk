@@ -9,10 +9,13 @@ A 13u "WKL-like" row-staggered keyboard using MX switches and STM32F072 microcon
 
 * Support for uDB or use the USB-C connector on the board [WARNING: Do not use both at the same time]
 * Cutouts for Gummy O-ring mounts
-NOTE : For cost saving, either the JST connector OR the USB-C and related components may be omitted from the BOM.
+
+# Pics
+![](https://github.com/arko9699/bonk/blob/main/assets/pic1-by-source.jpg)
 
 # Building 
 If you want to get a few of these PCBs to build yourself to share with friends head over to "Releases" and download the latest gerber files. Order from any PCB manufacturer of your choice however the included BOM and CPL is tailored to JLCPCB. A hot plate or hot air station is recommended to solder components yourself. 
+NOTE : For cost saving, either the JST connector OR the USB-C and related components may be omitted from the BOM.
 
 # Opening the project
 * Atleast KiCAD 8.0.7 is required to open the project properly. Older versions of KiCAD will not work.
