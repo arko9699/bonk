@@ -12,6 +12,7 @@ A 13u "WKL-like" row-staggered keyboard using MX switches and STM32F072 microcon
 
 # Pics
 ![](https://github.com/arko9699/bonk/blob/main/assets/pic1-by-source.jpg)
+![](https://github.com/arko9699/bonk/blob/main/assets/pic1-by-arko.jpg)
 
 # Building 
 If you want to get a few of these PCBs to build yourself to share with friends head over to "Releases" and download the latest gerber files. Order from any PCB manufacturer of your choice however the included BOM and CPL is tailored to JLCPCB. A hot plate or hot air station is recommended to solder components yourself. 
