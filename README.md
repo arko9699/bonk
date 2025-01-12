@@ -12,6 +12,7 @@ A 13u "WKL-like" row-staggered keyboard using MX switches and STM32F072 microcon
 
 # Pics
 ![](https://github.com/arko9699/bonk/blob/main/assets/pic1-by-source.jpg)
+
 ![](https://github.com/arko9699/bonk/blob/main/assets/pic1-by-arko.png)
 
 # Building 
