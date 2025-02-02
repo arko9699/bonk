@@ -40,3 +40,10 @@ NOTE : For cost saving, either the JST connector OR the USB-C and related compon
 |C81720  |MCU        |STM32F072CBTx |LQFP-48 |1     |
 |C5180249|Volt. Regu.|XC6206P332MR-G|SOT-23-3|1     |
 |C160404 |Opt. JST   |SM04B-SRSS-TB |SMD     |1     |
+
+# Changelog
+* rev1.1
+  - Changed reset/boot circuitry. Now there is only one button for both actions. Hold the buttom for ~30s to enter the bootloader for flashing, or quickly press and release to reset the board. Thanks to the [Acheron Project](https://acheronproject.com/reset_article_1/reset_article_1/) by Gondolindrim and others. This change adds additional components to the BoM but requires less than $1 extra for all parts.
+  - Added new compiled firmware which enables a few more QMK features. This is backwards compatible with the older revision of the board.
+* rev1.0
+  - Initial release
