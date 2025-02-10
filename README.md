@@ -2,10 +2,10 @@
 A 13u "WKL-like" row-staggered keyboard using MX switches and STM32F072 microcontroller, running QMK firmware.
  
 # PCB
-![PCB_BACK](https://github.com/arko9699/bonk/blob/main/pcb_back.png)
+![PCB_BACK](https://github.com/arko9699/bonk/blob/main/assets/pcb_back.png)
 
 # Supported Layouts
-![Supported Layouts](https://github.com/arko9699/bonk/blob/main/layouts.png)
+![Supported Layouts](https://github.com/arko9699/bonk/blob/main/assets/layouts.png)
 
 * Support for uDB or use the USB-C connector on the board [WARNING: Do not use both at the same time]
 * Cutouts for Gummy O-ring mounts
