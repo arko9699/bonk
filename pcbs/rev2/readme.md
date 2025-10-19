@@ -1,6 +1,15 @@
-# Flashing
+# PCB
+![PCB](https://github.com/arko9699/bonk/blob/main/assets/rev2.png)
 
-The following steps assume you have a PCB and the latest rev2.x firmware downloaded
+# Supported Layouts
+![Supported Layouts](https://github.com/arko9699/bonk/blob/main/assets/rev2-layouts.png)
+
+# Opening the project
+* Atleast KiCAD 9.0.2 is required to open the project properly. Older versions of KiCAD will not work.
+* [marbastlib](https://github.com/ebastler/marbastlib) was used for some of the footprints.
+
+# Flashing
+The following steps assume you have a PCB and the latest rev2 firmware downloaded.
 
 Common Steps:
 1. Plug in the PCB to the computer using an USB cable (either using uDB or directly)
