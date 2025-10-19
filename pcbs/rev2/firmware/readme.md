@@ -1,8 +1,8 @@
-# arko/bonkr2
+# bonkr2
 
 * Keyboard Maintainer: [Arko9699](https://github.com/arko9699)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: stm32f072
+* Hardware Availability: [Github](https://github.com/arko9699/bonk/tree/main/pcbs/rev2)
 
 Make example for this keyboard (after setting up your build environment):
 
