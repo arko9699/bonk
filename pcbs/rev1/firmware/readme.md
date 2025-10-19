@@ -1,12 +1,8 @@
 # bonk
 
-![bonk](imgur.com image replace me!)
-
-*A short description of the keyboard/project*
-
-* Keyboard Maintainer: [arko9699](https://github.com/arko9699)
+* Keyboard Maintainer: [Arko9699](https://github.com/arko9699)
 * Hardware Supported: stm32f072
-* Hardware Availability: [Github](https://github.com/arko9699/bonk/)
+* Hardware Availability: [Github](https://github.com/arko9699/bonk/tree/main/pcbs/rev1)
 
 Make example for this keyboard (after setting up your build environment):
 
