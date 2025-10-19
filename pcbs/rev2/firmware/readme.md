@@ -4,7 +4,7 @@
 
 *A short description of the keyboard/project*
 
-* Keyboard Maintainer: [Arkaprobho Das](https://github.com/arko9699)
+* Keyboard Maintainer: [Arko9699](https://github.com/arko9699)
 * Hardware Supported: *The PCBs, controllers supported*
 * Hardware Availability: *Links to where you can find this hardware*
 
