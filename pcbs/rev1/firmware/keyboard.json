@@ -1,6 +1,6 @@
 {
     "manufacturer": "arko9699",
-    "keyboard_name": "bonk",
+    "keyboard_name": "bonkR1",
     "maintainer": "arko9699",
     "bootloader": "stm32-dfu",
     "diode_direction": "COL2ROW",
