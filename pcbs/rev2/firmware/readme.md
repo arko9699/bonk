@@ -1,7 +1,5 @@
 # arko/bonkr2
 
-![arko/bonkr2](imgur.com image replace me!)
-
 *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [Arko9699](https://github.com/arko9699)
