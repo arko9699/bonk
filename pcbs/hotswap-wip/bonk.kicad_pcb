@@ -273,7 +273,7 @@
 		(path "/86c11717-6fb1-49fa-ba22-57d9c11d0559/2f711df5-b563-420c-8ba0-8ac4440da899")
 		(sheetname "/MX Matrix/")
 		(sheetfile "matrix.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -21.43125 -9.525)
 			(end -21.43125 9.525)
@@ -685,7 +685,6 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0.7 0)
@@ -1182,7 +1181,7 @@
 		(path "/86c11717-6fb1-49fa-ba22-57d9c11d0559/3600895e-d4a9-49c1-8f79-a8ce7963d8b0")
 		(sheetname "/MX Matrix/")
 		(sheetfile "matrix.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -21.43125 -9.525)
 			(end -21.43125 9.525)
@@ -1839,7 +1838,7 @@
 		(path "/86c11717-6fb1-49fa-ba22-57d9c11d0559/6b981389-4815-4a50-a192-224bae3130af")
 		(sheetname "/MX Matrix/")
 		(sheetfile "matrix.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 21.43125 -9.525)
 			(end 21.43125 9.525)
@@ -2251,7 +2250,7 @@
 		(path "/86c11717-6fb1-49fa-ba22-57d9c11d0559/4352c2b4-669f-41e4-b357-a55a7d1d8d61")
 		(sheetname "/MX Matrix/")
 		(sheetfile "matrix.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 19.05 -9.525)
 			(end 19.05 9.525)
@@ -2901,7 +2900,7 @@
 		(path "/86c11717-6fb1-49fa-ba22-57d9c11d0559/e75a5aa9-dc18-4520-a029-41cf880ca92a")
 		(sheetname "/MX Matrix/")
 		(sheetfile "matrix.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 59.53125 -9.525)
 			(end 59.53125 9.525)
@@ -74204,7 +74203,7 @@
 		(net 38)
 		(net_name "D-")
 		(layer "B.Cu")
-		(uuid "6f173cfc-2dd4-4541-bb19-b47d167bd493")
+		(uuid "68beeb05-9af5-41cd-ab27-03b475666adc")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
 		(priority 30000)
@@ -74248,7 +74247,7 @@
 		(net 38)
 		(net_name "D-")
 		(layer "B.Cu")
-		(uuid "a994a0d4-1c7a-4d61-8378-afb6d878f0e8")
+		(uuid "cec7a0b5-fe57-4d9b-9c5a-c6176575f1cf")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
 		(priority 30001)
